@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+  <title id="title">Graph of the circle x squared plus y squared equals 9</title>
+  <desc id="desc">A circle centered at the origin (0, 0) with radius 3, intersecting axes at (3,0), (-3,0), (0,3), and (0,-3).</desc>
+  <rect width="720" height="500" rx="12" fill="#ffffff"/>
+  <text x="360" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Circle: x² + y² = 9</text>
+
+  <!-- Plot grid: 1 unit = 50px. x from -4 to 4, y from -3.5 to 3.5 -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <path d="M160 50V430 M210 50V430 M260 50V430 M310 50V430 M360 50V430 M410 50V430 M460 50V430 M510 50V430 M560 50V430"/>
+    <path d="M140 90H580 M140 140H580 M140 190H580 M140 240H580 M140 290H580 M140 340H580 M140 390H580"/>
+  </g>
+
+  <!-- Coordinate Axes -->
+  <g stroke="#374151" stroke-width="2">
+    <path d="M140 240H580"/>
+    <path d="M360 45V435"/>
+  </g>
+
+  <!-- Axis Tick Labels -->
+  <g font-family="Arial, sans-serif" font-size="14" fill="#4b5563">
+    <!-- x labels -->
+    <text x="210" y="262" text-anchor="middle">−3</text>
+    <text x="260" y="262" text-anchor="middle">−2</text>
+    <text x="310" y="262" text-anchor="middle">−1</text>
+    <text x="410" y="262" text-anchor="middle">1</text>
+    <text x="460" y="262" text-anchor="middle">2</text>
+    <text x="510" y="262" text-anchor="middle">3</text>
+    <!-- y labels -->
+    <text x="350" y="394" text-anchor="end">−3</text>
+    <text x="350" y="344" text-anchor="end">−2</text>
+    <text x="350" y="294" text-anchor="end">−1</text>
+    <text x="350" y="194" text-anchor="end">1</text>
+    <text x="350" y="144" text-anchor="end">2</text>
+    <text x="350" y="94" text-anchor="end">3</text>
+    <!-- Axis titles -->
+    <text x="590" y="245" font-style="italic">x</text>
+    <text x="368" y="58" font-style="italic">y</text>
+  </g>
+
+  <!-- Circle Shape -->
+  <circle cx="360" cy="240" r="150" fill="#2563eb" fill-opacity="0.06" stroke="#2563eb" stroke-width="4"/>
+
+  <!-- Radius indicator line -->
+  <line x1="360" y1="240" x2="466" y2="134" stroke="#059669" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="424" y="180" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#059669">r = 3</text>
+
+  <!-- Key Points (Center & Intercepts) -->
+  <g fill="#dc2626" stroke="#ffffff" stroke-width="2">
+    <circle cx="360" cy="240" r="6"/>
+    <circle cx="510" cy="240" r="6"/>
+    <circle cx="210" cy="240" r="6"/>
+    <circle cx="360" cy="90" r="6"/>
+    <circle cx="360" cy="390" r="6"/>
+  </g>
+
+  <!-- Labels for Key Points -->
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#1f2937">
+    <text x="350" y="232" text-anchor="end">Center (0, 0)</text>
+    <text x="522" y="234" text-anchor="start">(3, 0)</text>
+    <text x="198" y="234" text-anchor="end">(−3, 0)</text>
+    <text x="360" y="78" text-anchor="middle">(0, 3)</text>
+    <text x="360" y="412" text-anchor="middle">(0, −3)</text>
+  </g>
+</svg>
+

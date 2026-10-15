@@ -117,7 +117,43 @@ Its graph is called a parabola.
 - The vertex is the maximum or minimum point of the parabola.
 - The real solutions of the quadratic equation correspond to the points where the graph crosses or touches the x-axis.
 
-## 4. Practice Exercises
+## 4. Quadratic Equations in Two Variables – The Circle
+
+While a standard quadratic function produces a parabola, a quadratic equation containing both $x^2$ and $y^2$ terms with equal coefficients describes a **circle**:
+
+$$
+(x - h)^2 + (y - k)^2 = r^2
+$$
+
+where:
+
+- $(h, k)$ are the coordinates of the circle's center.
+- $r$ is the radius ($r > 0$).
+
+### Example: Circle Centered at the Origin
+
+Consider the equation:
+
+$$
+x^2 + y^2 = 9
+$$
+
+Here:
+
+- Center: $(h, k) = (0, 0)$
+- Radius: $r = \sqrt{9} = 3$
+
+![Graph of the circle x^2 + y^2 = 9, with center (0, 0) and radius 3](circle.svg)
+
+*Figure: The graph of $x^2+y^2=9$. It is centered at $(0,0)$ with radius $r=3$, intersecting the coordinate axes at $(3, 0)$, $(-3, 0)$, $(0, 3)$, and $(0, -3)$.*
+
+Key properties:
+- **Center:** The origin $(0, 0)$.
+- **Radius:** $r = 3$ units in all directions.
+- **$x$-intercepts:** Set $y = 0 \implies x^2 = 9 \implies x = \pm 3 \implies (-3, 0)$ and $(3, 0)$.
+- **$y$-intercepts:** Set $x = 0 \implies y^2 = 9 \implies y = \pm 3 \implies (0, -3)$ and $(0, 3)$.
+
+## 5. Practice Exercises
 
 Try solving these equations using the quadratic formula.
 
@@ -126,7 +162,6 @@ Exercise 1
 $x^2-7x+10=0$
 
 Show answer
-
 Exercise 2
 
 $x^2+6x+9=0$
@@ -140,3 +175,55 @@ $2x^2-8x+6=0$
 Show answer
 
 Key takeaway: A quadratic equation can have two, one, or no real solutions. The discriminant determines which case occurs, and the quadratic formula gives the solutions when they are real.
+
+
+## Copilot
+
+Copilot is an AI-powered code completion tool developed by GitHub. It assists developers by suggesting code snippets and entire functions based on the context of the code being written.
+
+Example:
+
+```python
+# Example usage of GitHub Copilot
+def quadratic_formula(a, b, c):
+    discriminant = b**2 - 4*a*c
+    if discriminant < 0:
+        return None
+    x1 = (-b + discriminant**0.5) / (2*a)
+    x2 = (-b - discriminant**0.5) / (2*a)
+    return x1, x2
+
+# Solve the quadratic equation x^2 - 5x + 6 = 0
+solutions = quadratic_formula(1, -5, 6)
+print(solutions)
+```
+
+## Note about circle
+
+A circle is defined by its center and radius. The general equation of a circle is:	
+
+$$
+(x - h)^2 + (y - k)^2 = r^2
+$$
+
+where:
+
+- $(h, k)$ are the coordinates of the circle's center.
+- $r$ is the radius ($r > 0$).
+
+Example:
+
+Consider a circle centered at the origin with radius 3:
+
+$$
+x^2 + y^2 = 4^2
+$$
+
+Key properties:
+- **Center:** The origin $(0, 0)$.
+- **Radius:** $r = 4$ units in all directions.
+- **$x$-intercepts:** Set $y = 0 \implies x^2 = 16 \implies x = \pm 4 \implies (-4, 0)$ and $(4, 0)$.
+- **$y$-intercepts:** Set $x = 0 \implies y^2 = 16 \implies y = \pm 4 \implies (0, -4)$ and $(0, 4)$.
+- **Diameter:** $d = 2r = 8$ units.
+- **Circumference:** $C = 2\pi r = 8\pi$ units.
+  
