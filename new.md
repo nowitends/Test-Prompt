@@ -108,16 +108,9 @@ $$
 
 Its graph is called a parabola.
 
-```mermaid
-%%{init: {"xyChart": {"plotColorPalette": "#d7191c"}}}%%
-xychart-beta
-	title "Graph of y = x^2 - 4"
-	x-axis "x" -3 --> 3
-	y-axis "y" -4 --> 5
-	line [5, 2.25, 0, -1.75, -3, -3.75, -4, -3.75, -3, -1.75, 0, 2.25, 5]
-```
+![Graph of the parabola y = x^2 - 4, with vertex (0, -4) and x-intercepts (-2, 0) and (2, 0)](parabola.svg)
 
-Parabola $y=x^2-4$, intersecting the x-axis at $x=-2$ and $x=2$.
+*Figure: The graph of $y=x^2-4$. Its vertex is $(0,-4)$, and it crosses the x-axis at $x=-2$ and $x=2$.*
 
 - If $a>0$, the parabola opens upward.
 - If $a<0$, the parabola opens downward.
